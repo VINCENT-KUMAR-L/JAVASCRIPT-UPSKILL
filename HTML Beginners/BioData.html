@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bio Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="content-width, initial-scale = 1.0 ">
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend style="text-align: center;">Personal Information</legend>
+                <label for="name">Full Name: </label>
+                <input type="text" id="name"><br><br>
+                <label for="number">Phone Number:</label>
+                <input id="number" type="tel"><br><br>
+                <label for="email">Email: </label>
+                <input id="email" type="email"><br><br>
+                <label for="dob">DOB:</label>
+                <input id="dob" type="date"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend  style="text-align: center;">Education Details</legend>
+                <label for="Degree">Degree: </label>
+                <input id="Degree" type="text"><br><br>
+                <label for="institions">Institutions: </label>
+                <input id="institions" type="text"><br><br>
+                <label for="color">Color: </label>
+                <input type="color" id="color"><br><br>
+                <label for="Range">Select Range:</label>
+                <input type="range" id="Range" min="0" max="100" step="10" value="30"><br><br>
+                <label for="gender">Gender:</label>
+                <label for="male">Male</label>
+                <input id="male" name="gender" type="radio" value="male">
+                <label for="female">Female</label>
+                <input id="female" name="gender" type="radio" value="female"><br><br>
+                <label for="hobby">Hobbies:</label>
+                <input type="checkbox" id="Singing" value="Singing">
+                <label for="Singing">Singing</label><br>
+                <input type="checkbox" id="sports" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="music" value="music">
+                <label for="music">Music</label><br>
+                <label for="country">country:</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select><br><br>
+                <textarea rows="5" cols="30"></textarea><br>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
